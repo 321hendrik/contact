@@ -44,6 +44,20 @@ $(document).ready(function(){
 				var coords = '50% ' + yPos + 'px';
 				bgobj.css({ backgroundPosition: coords });
 			});
+
+			$('.paralax-image').each(function () {
+				var imgObj = $(this);
+				var yPos =  -( $window.scrollTop() / imgObj.data('speed') ) + imgObj.data('offset');
+				imgObj.css({top: yPos + 'px'});
+			});
+
+			$('.paralax-image-hori').each(function () {
+				var imgObj = $(this);
+				var xPos =  ( $window.scrollTop() / imgObj.data('speed') ) - imgObj.data('offset');
+				if (xPos < ( $window.width() - imgObj.width())) {
+					imgObj.css({left: xPos + 'px'});
+				}
+			});
 		});
 	});
 

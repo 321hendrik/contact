@@ -105,6 +105,7 @@ p {
 
 section .container {
 	height: 1000px;
+	width: 70%;
 	padding: 200px 30px 30px 30px;
 }
 
@@ -115,19 +116,77 @@ section .container {
 	height: 400px;
 }
 
+
 .text-container {
-	margin-bottom: auto;
+	margin-bottom: 20px;
 	padding: 20px;
-	background: rgba(80,80,80,0.7);/* dirty lila rgba(66,50,74,0.5) */
+	background: rgba(255,255,255,0.8);
 	color: white;
 	line-height: 1.4em;
 }
-
 .text-container p {
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: auto;
+	color: #13595D;
+	line-height: 1.4em;
+}
+
+.text-container-dark {
+	margin-bottom: 20px;
+	padding: 20px;
+	background: rgba(19,89,93,0.9);
+	color: white;
+	line-height: 1.4em;
+}
+.text-container-dark p {
 	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin-top: auto;
 	color: white;
 	line-height: 1.4em;
+}
+
+.left {
+	width: 35%;
+}
+
+.right {
+	width: 35%;
+	float:right;
+}
+
+.center {
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topcolor {
+	height: 40px;
+	width: 100%;
+	background: #634;
+	position: relative;
+	margin: -20px 20px 20px;
+}
+
+.img-container {
+	background-position: 100% 0;
+	background-size: 100% auto;
+	width: 100%;
+	height: 400px;
+}
+
+.img-box {
+	height: auto;
+	width: 40%;
+	display: block;
+}
+
+.paralax-image {
+	position: relative;
+}
+
+.paralax-image-hori {
+	position: absolute;
 }
 
 .contact-info p {
