@@ -1,0 +1,176 @@
+/*
+Palette Light (http://www.colourlovers.com/palette/3288397/)
+green: #99B48B
+lightcreme: #FFF2C6
+creme: #EDE2A4
+darkpink: #C92D55
+pink: #BF5B65
+ */
+
+ /*
+ Palette Dark (http://www.colourlovers.com/palette/3288351/Even_In_Dark_I_Grow!)
+ mint: #B6C98E
+ petrol: #13595D
+ dirty-lila: #42324A
+ glow-lila: #3C1968
+ dark: #170A1F
+  */
+
+@font-face {
+	font-family: "Raleway-Bold";
+	src: url("type/Raleway-Bold.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("type/Raleway-Regular.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Medium";
+	src: url("type/Raleway-Medium.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Light";
+	src: url("type/Raleway-Light.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Thin";
+	src: url("type/Raleway-Thin.otf") format("opentype");
+	font-style: normal;
+}
+
+body {
+	/*background-color: #170A1F;*/
+	font-size: 1.0em;
+	padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+p {
+	font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1.1em;
+	color: #dedede;
+}
+
+.navbar .container {
+	margin-left: 20px;
+}
+.navbar .brand {
+	font-size: 1.4em;
+	font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #B6C98E;
+}
+/*, "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif*/
+.navbar-inner {
+	background-image: none;
+	background-color: #13595D;
+	color: #13595D;
+}
+.navbar .nav .active>a, .navbar .nav .active>a:hover {
+	background-color: #170A1F;
+	color: #13595D;
+}
+.navbar .nav>li>a {
+	background-color: transparent;
+	color: #EDE2A4;
+}
+.super-headline {
+	color:   #13595D;
+	font-size: 6.5em;
+	line-height: 1em;
+	margin-top: 1.5em;
+}
+.headline {
+	font-size: 6.5em;
+	line-height: 1em;
+	margin-top: 0.7em;
+	margin-bottom: -0.1em;
+}
+.light-text {
+	color: #B6C98E;
+}
+.dark-text {
+	color: #42324A;
+}
+
+.subtext {
+	font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: 1em;
+	font-size: 1.6em;
+	color: #BF5B65;
+	padding-left: 30px;
+}
+
+section .container {
+	height: 1000px;
+	padding: 200px 30px 30px 30px;
+}
+
+.img-container {
+	background-position: 100% 0;
+	background-size: 100% auto;
+	width: 100%;
+	height: 400px;
+}
+
+.text-container {
+	margin-bottom: auto;
+	padding: 20px;
+	background: rgba(80,80,80,0.7);/* dirty lila rgba(66,50,74,0.5) */
+	color: white;
+	line-height: 1.4em;
+}
+
+.text-container p {
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: auto;
+	color: white;
+	line-height: 1.4em;
+}
+
+.contact-info p {
+	padding: 20px;
+	color: #170A1F;
+	line-height: 1.4em;
+}
+
+#intro {
+    background: url(../images/blood-moon.jpg) 50% 0 fixed;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+p.bottom {
+	position: fixed;
+	bottom: 10px;
+}
+#cape_st_francis {
+    background: url(../images/waves.jpg) 50% 0 fixed;
+    height: 4000px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#picture {
+    background: url(../images/skydark.jpg) 50% 0 fixed;
+    height: 4000px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    color: #fff;
+}
+#contact {
+    background: #13595D 50% 0 fixed;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    color: #fff;
+}
